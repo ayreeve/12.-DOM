@@ -1,2 +1,3 @@
-19. DOM (06.05.2017)
 # DOM
+* iteration
+* events
