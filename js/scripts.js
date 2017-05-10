@@ -1,14 +1,14 @@
-/*jslint devel: true*/
+// jslint devel: true
 
-/* iterating over the DOM */
+// iterating over the DOM
 
-var button = document.getElementsByClassName('button');
+var buttons = document.getElementsByClassName('button');
 
-for (var i = 0; i < button.length; i++) {
-    alert(button[i].innerText);
+for (var i = 0; i < buttons.length; i++) {
+    alert(buttons[i].innerText);
 }
 
-/* events */
+// events
 
 var list = document.getElementById('list'),
     add = document.getElementById('addElem');
